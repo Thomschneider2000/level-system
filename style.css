@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+#container {
+  padding: 20px;
+  background-color: white;
+}
+
+#level-info {
+  display: flex;
+  background-color: white;
+}
+
+#level-up-bar-container {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+
+#level-up-bar-border {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+#level-up-bar {
+  display: flex;
+  position: absolute;
+  left: 0;
+  border-radius: 20px;
+  height: 20px;
+  width: 0px;
+  background-color: red;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
